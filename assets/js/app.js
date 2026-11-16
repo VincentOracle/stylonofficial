@@ -186,11 +186,11 @@ function footerHTML(s){
         <a href="${s.social.tiktok}" target="_blank"><i class="fab fa-tiktok"></i> TikTok</a>
         <a href="${s.social.instagram}" target="_blank"><i class="fab fa-instagram"></i> Instagram</a>
         <a href="${s.social.telegram}" target="_blank"><i class="fab fa-telegram"></i> Telegram</a>
-        <a href="${s.social.x}" target="_blank"><i class="fab fa-x-twitter"></i> X / Twitter</a>
+        <a href="${s.social.x}" target="_blank"><i class="fab fa-x-twitter"></i>/ Twitter</a>
         <form class="newsletter" onsubmit="subscribeNL(event)"><input type="email" required placeholder="Your email address"><button class="btn btn-gold btn-sm">Subscribe</button></form></div>
     </div>
     <div class="footer-bottom"><div class="container fb-in"><span>© 2026 STYLON OFFICIAL. All Rights Reserved.</span>
-      <span class="pay-icons"><i class="fas fa-mobile-screen"></i> M-Pesa <i class="fab fa-cc-visa"></i> <i class="fab fa-cc-mastercard"></i></span></div></div>
+      <span class="pay-icons"><i class="fas fa-mobile-screen"></i> M-Pesa <i class="fab fa-cc-visa"></i> <i class="fab fa-cc-mastercard"></i></span></div> Powered by <a href="https://eontechsystems.com/">EonTech Systems</a></div>
   </footer>`;
 }
 function subscribeNL(e){ e.preventDefault(); e.target.reset(); toast('Subscribed! Welcome to the STO family.'); }
