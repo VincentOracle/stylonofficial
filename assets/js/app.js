@@ -190,7 +190,7 @@ function footerHTML(s){
         <form class="newsletter" onsubmit="subscribeNL(event)"><input type="email" required placeholder="Your email address"><button class="btn btn-gold btn-sm">Subscribe</button></form></div>
     </div>
     <div class="footer-bottom"><div class="container fb-in"><span>© 2026 STYLON OFFICIAL. All Rights Reserved.</span>
-      <span class="pay-icons"><i class="fas fa-mobile-screen"></i> M-Pesa <i class="fab fa-cc-visa"></i> <i class="fab fa-cc-mastercard"></i></span></div> Powered by <a href="https://eontechsystems.com/">EonTech Systems</a></div>
+      <span class="pay-icons"><i class="fas fa-mobile-screen"></i> M-Pesa <i class="fab fa-cc-visa"></i> <i class="fab fa-cc-mastercard"></i></span>Powered by <a href="https://eontechsystems.com/">EonTech Systems</a></div> </div>
   </footer>`;
 }
 function subscribeNL(e){ e.preventDefault(); e.target.reset(); toast('Subscribed! Welcome to the STO family.'); }
