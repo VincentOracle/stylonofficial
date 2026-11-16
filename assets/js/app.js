@@ -258,7 +258,7 @@ function heroAuto(){ clearInterval(heroTimer); heroTimer=setInterval(()=>heroGo(
 const $$ = s => Array.from(document.querySelectorAll(s));
 
 function catCardsHTML(){
-  const icons = {'Fashion':'fa-shirt','Perfumes & Fragrance':'fa-spray-can-sparkles','Watches':'fa-clock','Jewellery':'fa-gem','Fashion Accessories':'fa-sunglasses','Phone & Tech Accessories':'fa-mobile-screen-button'};
+  const icons = {'Fashion':'fa-shirt','Perfumes & Fragrance':'fa-spray-can-sparkles','Watches':'fa-clock','Jewellery':'fa-gem','Fashion Accessories':'fa-vest','Phone & Tech Accessories':'fa-mobile-screen-button'};
   return `<section class="section container">
     <div class="section-head"><h2>Shop by Category</h2><a href="#/shop" class="link-gold">View All →</a></div>
     <div class="cat-scroll">${STO_CATEGORIES.map(c=>`<a href="#/category/${slugify(c.name)}" class="cat-card">
